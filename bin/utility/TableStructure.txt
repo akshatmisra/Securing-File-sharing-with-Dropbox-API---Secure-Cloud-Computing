@@ -1,0 +1,10 @@
++------------+---------------+------+-----+---------+-------+
+| Field      | Type          | Null | Key | Default | Extra |
++------------+---------------+------+-----+---------+-------+
+| user       | varchar(50)   | NO   | PRI | NULL    |       |
+| filename   | varchar(200)  | NO   | PRI | NULL    |       |
+| encfilekey | varchar(1000) | YES  |     | NULL    |       |
+| enchashkey | varchar(1000) | YES  |     | NULL    |       |
+| hashvalue  | varchar(1000) | YES  |     | NULL    |       |
+| doublehash | varchar(1000) | YES  |     | NULL    |       |
++------------+---------------+------+-----+---------+-------+
